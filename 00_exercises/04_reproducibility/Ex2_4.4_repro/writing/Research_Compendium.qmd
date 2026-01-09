@@ -25,7 +25,7 @@ Here are some results from our simulation study:
 #| echo: false
 #| fig-cap: "Effect of measurement error on the HbA1C estimate"
 
-# loading the here package (and installing it if necessary)
+# loading the here package
 if (!require(here)) {
   install.packages("here")
 }
@@ -65,6 +65,6 @@ FIGURE
 ```
 
 <!-- To render the file -->
-<!-- quarto render "docs/Research_Compendium.qmd" -->
+<!-- quarto render "writing/Research_Compendium.qmd" -->
 
 
